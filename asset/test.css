@@ -1,0 +1,112 @@
+/*
+ * -----------------------------------------------------------------------------
+ * Division teması için özelleştirmeler
+ * -----------------------------------------------------------------------------
+ */
+
+#searchform #searchsubmit { background-image: url(/asset/btn_ara.png); }
+a { color: #585858; }
+#header { height: 95px; background: #dcdcdc url(/asset/bg_gray.png); }
+#home-services { height: 210px; padding-bottom:30px; }
+#header #image-logo a { width: 440px; background: url(/asset/logo.gif) no-repeat; }
+#topnav ul li a { line-height: 36px; padding-top: 6px; bottom: 0; }
+.section-title { padding: 3px 0 10px 20px; }
+.section-title a { margin-left:20px; }
+#home-sidebar {	width: 930px; float:left; }
+#home-blog { display:none; }
+
+/* duyuru */
+#home-quote { margin: -30px 0 30px; }
+#home-quote .section-title { background:url(/asset/icon_star.png) no-repeat; }
+#home-quote-prefix { width: 870px; }
+#home-quote-subfix { width: 870px; }
+
+#home-twitter { display: none; } /* twitter bölümünün görünmesini istemiyoruz */
+#home-clients { display: none; } /* clients bölümünün görünmesini istemiyoruz */
+td a:link, a:visited, a:active, a:hover { text-decoration: none; }
+td a:hover { font-weight: bold; }
+.entry-title, .entry-meta, .tips { display:none; }
+#respond { display:none; }
+#content { width:930px; }
+#footer-pages { display: none; }
+.readmore { display:none; } /* çevirisi yapılmamış ve gerekli de değil */
+.circle-list { display:none; }/* 404 sayfası için altta çıkan yazı sayfalarını engelleyelim */
+
+#home-services .item-icon:hover {
+        background-color: #d9d9d9;
+        margin-top: -0.6em;
+        padding-top: 0.6em;
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        cursor: pointer;
+}
+
+.slide-text {
+        text-align: justify;
+}
+
+#content {
+        width: 50%;
+}
+#sidebar {
+        width: 35%;
+        display: inline-block;
+        float: right;
+}
+
+#teaser h2 {
+        font-family: Arial, Helvetica, Sans;
+        font-size: 24px;
+}
+
+#searchform #searchsubmit {
+        background:url(/asset/btn_search.png) no-repeat;
+        width:24px;
+        height:24px;
+}
+#searchsubmit {
+        margin-top: 1px;
+        margin-left: 2px;
+}
+#searchform #s{
+        background: url(/asset/btn_s.png);
+        height: 15px;
+        width: 146px;
+}
+
+/*
+ * -----------------------------------------------------------------------------
+ * Diğer özelleştirmeler
+ * -----------------------------------------------------------------------------
+ */
+
+.lisans-dersler { height:180px; margin-top:18px; margin-left:50px; }
+th { text-align:left; }
+table {	float:left; }
+div.iletisim * { text-decoration: none; } /* akademik personel e-mail'i altı çizili olmasın */
+#orta { padding-left:5px; } /* lisans dersleri teori ortalama */
+
+.qtrans_flag {
+        margin-top: 0.8em;
+        margin-left: 1em;
+}
+
+div.contact-left {
+    float: left;
+    padding: 10px;
+    width: 45%;
+    border: 0px solid gray;
+}
+
+div.contact-right {
+    float: right;
+    padding: 10px;
+    width: 45%;
+    border: 0px solid gray;
+}
+
+img.contact-captcha {
+        display: inline-block;
+        vertical-align: bottom;
+        margin-left: 2px;
+}

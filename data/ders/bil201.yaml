@@ -1,0 +1,19 @@
+---
+code: bil201
+title: Programlama II
+instructor: Yrd. Doç. Dr. Nurettin Şenyer
+web: http://seyyah.me/bil201
+
+semester: 2.Yıl/Güz dönemi
+course_type: Zorunlu
+prerequisite: Yok
+teaching_form: Ders Verme
+assesment: Ödev; %20, Arasınav; %20, Dönem sonu; %60
+language: Türkçe
+course_objective: Nesneye dayalı programlamanın temel kavramlarının edinilmesi.
+
+content: |
+ Dizi Yönetimi, Pointer ve link list yöntemi, Statik ve dinamik bağlama,
+ Fonksiyonla; normal, sanal, arkadaş,overloaded, Parametresiz ve parametreli makrolar, 
+ Nesne yönelimli programlama, Veri soyutlama, Sınıf ve nesne, Sarmalama, Kalıtım, 
+ Çokbiçimlilik, Yapıcı ve Yıkıcı, Pencere programlama, CASE aletleri.
